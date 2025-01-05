@@ -1,11 +1,11 @@
 {
   "name": "GPT Researcher Dev",
-  build: {
-    context: ".."
+  "build": {
+    "context": ".."
   },
 
-  dockerComposeFile: "docker-compose.dev.yml",
-  service: "gpt-researcher-dev",
+  "dockerComposeFile": "docker-compose.dev.yml",
+  "service": "gpt-researcher-dev",
   // Configure tool-specific properties.
   "customizations": {
     "jetbrains": {
